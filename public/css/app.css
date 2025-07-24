@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+}
+#search {
+  padding: 0.5rem; width: 300px;
+  border: 2px solid #667;
+  border-radius: 4px;
+}
+ul { list-style: none; padding: 0; }
+li { padding: 0.25rem 0; }
+li.suggest { cursor: pointer; }
+li.suggest.focused { background-color: #eef; }
+strong { background-color: yellow; }
+
+
+h1, h2 {
+  margin-bottom: 0.5rem;
+}
+
+input#search {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+ul.dropdown {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width: 400px;
+  margin-top: 0;
+}
+
+ul.dropdown li {
+  list-style: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+ul.dropdown li.highlight {
+  background: #f0f0f0;
+}
+
+ul.results li {
+  margin: 0.5rem 0;
+}
+
+section.card {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.matched {
+  font-weight: bold;
+  background: yellow;
+}

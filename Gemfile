@@ -18,7 +18,7 @@ end
 
 
 # Background jobs
-gem 'redis', '~> 4.0'
+gem 'redis', '~> 5.4'
 gem 'sidekiq'
 
 # Cross-origin resource sharing

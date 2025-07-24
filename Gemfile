@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 ruby '3.2.2'
 
 # Rails framework (API-only)
-gem 'rails', '~> 7.0'
+gem 'rails', '~> 8.0'
 
 # Database adapter
 gem 'pg', '>= 0.18', '< 2.0'

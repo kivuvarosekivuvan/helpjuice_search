@@ -2,6 +2,10 @@
 
 A tiny Rails & vanilla‑JS app that tracks **completed**, real‑time searches and shows the top queries.
 Whether you’re on **macOS**, **Linux**, or **Windows**, this guide will walk you through getting up and running—from cloning the repo to launching the backend, wiring up the frontend, and running tests.
+<br><br>
+
+<img width="1600" height="379" alt="Screenshot 2025-07-24 at 12 50 32" src="https://github.com/user-attachments/assets/f62c7168-bb71-4744-9567-de657f342235" />
+<img width="1600" height="272" alt="Screenshot 2025-07-24 at 12 49 23" src="https://github.com/user-attachments/assets/abd673ee-44e2-44e9-8fe4-7d384fd2ec6b" />
 
 ---
 &nbsp;
@@ -64,6 +68,7 @@ rails db:migrate
 rails server
 ```
 By default, the app listens on port 3000.
+<img width="958" height="272" alt="Screenshot 2025-07-24 at 12 49 23" src="https://github.com/user-attachments/assets/abd673ee-44e2-44e9-8fe4-7d384fd2ec6b" />
 
 ---
 &nbsp;
@@ -81,6 +86,7 @@ python3 -m http.server 8000
 # → visit http://localhost:8000
 ```
 
+<img width="1657" height="379" alt="Screenshot 2025-07-24 at 12 50 32" src="https://github.com/user-attachments/assets/f62c7168-bb71-4744-9567-de657f342235" />
 
 ---
 &nbsp;

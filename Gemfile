@@ -32,7 +32,7 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
   # Testing framework
-gem 'rspec-rails', '~> 6.0'
+gem 'rspec-rails', '~> 8.0'
   # Debugging tools
 gem 'debug', platforms: %i[mri windows], require: 'debug/prelude'
   # Security linting
